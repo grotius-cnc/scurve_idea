@@ -58,9 +58,9 @@ In green, traditional linear acc curve to show the difference :
         }
 
 
-- Left = displacement.
-- Mid  = acceleration.
-- Right= velocity.
+        - Left = displacement.
+        - Mid  = acceleration.
+        - Right= velocity.
 
 ![screen](https://user-images.githubusercontent.com/44880102/206876530-09892f41-f0e9-4f09-a9f4-94f3ba34a687.jpg)
 
