@@ -5,22 +5,22 @@ An idea for creating a scurve, born out of a problem using the scurve math discr
 
 https://github.com/grotius-cnc/s-curve-motion-planning/blob/main/Ch5.pdf
 
-The problem is using a acceleration start and-or end value and starting a new scurve from there. 
+        The problem is using a acceleration start 
+        and-or end value and starting a new scurve from there. 
+        
+        The max jerk "jm" is calculated with 
+        "vo" (velocity start) and "ve" (velocity end) 
+        values for a full curve. 
+        
+        Above implementation can not make solutions 
+        for curve parts where "ve" (velocity end) is not known. 
+        
+        As a result the jerk max "jm" can not be calculated. 
 
-The max jerk "jm" is calculated with "vo" (velocity start) and "ve" (velocity end) values for a full curve. 
+        Below is a small example how to create the concave part of a scurve, 
+        using a start acceleration and not knowing the velocity end.
 
-Above implementation can not make solutions for curve parts where "ve" (velocity end) is not known. Then "jm"
-can not be calculated. 
-
-The example below in red can create curve parts. 
-
-
-This is a small example how to create the concave part of a scurve, 
-
-using a start acceleration and not knowing the velocity end.
-
-
-
+        
 In red:
 
         double vo=0;
