@@ -43,7 +43,7 @@ In red:
             vo=ve;
         }
 
-In green:
+In green, traditional linear acc curve to show the difference :
 
         vo=0;
         a=3;
