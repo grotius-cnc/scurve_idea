@@ -32,7 +32,7 @@ Formula for scurve, this should be a linear acceleration formula, but it can beh
         
         To make it work as scurve :
         
-        In the concave and convex periods each cycle the "a" is incremented with a value. "a_step".
+        In the concave and convex periods each cycle the "a" is incremented cq decremented with a value, "a_step".
         
         
         
