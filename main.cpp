@@ -1,9 +1,11 @@
-#include "XMainWindow.h"
+#include "mainwindow.h"
 
-int main(int argc, char** argv)
+#include <QApplication>
+
+int main(int argc, char *argv[])
 {
-    // Create new application.
-    XMainWindow *MainWindow=new XMainWindow();
-    // Show application.
-    MainWindow->run();
+    QApplication a(argc, argv);
+    MainWindow w;
+    w.show();
+    return a.exec();
 }
