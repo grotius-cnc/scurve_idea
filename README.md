@@ -1,6 +1,10 @@
 # scurve_idea
 scurve math idea.
 
+https://user-images.githubusercontent.com/44880102/207896934-33f941af-10ad-4d07-887c-703fb2690885.mp4
+
+
+
 An idea for creating a scurve, born out of a problem using the scurve math discribed in this paper :
 
 https://github.com/grotius-cnc/s-curve-motion-planning/blob/main/Ch5.pdf
